@@ -1,0 +1,85 @@
+
+body{
+    font-family: helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 600px;
+    background: #232323;
+}
+
+div{
+    height: 200px;
+    background-size: cover;
+    border-radius: 12px 12px 0 0;
+    margin: 40px 0 0 0;
+    position: relative;
+}
+
+h1{
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size: 75px;
+    text-align: center;
+    color: #aaaaaa;
+    margin: 60px 0 0 0;
+}
+
+h2{
+    text-align: center;
+    color: #aaaaaa;
+    margin: 0 0 50px 0;
+}
+p{
+    color: #ffffff;
+    background: black;
+    line-height: 28px;
+  text-align: justify;
+    bottom: 0;
+    padding: 0 10px 0 10px;
+    opacity: 0;
+  border-radius: 12px 12px 0 0;
+}
+p:hover{
+  opacity:1;
+   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  transition: .6s ease;
+
+}
+
+.price{
+    float: right;
+    font-weight: heavy;
+    margin: 0 10px 0 0;
+}
+.first{
+    background-image: url("https://i.postimg.cc/FRmx83p7/foiegras.jpg");
+}
+.second{
+    background-image: url("https://i.postimg.cc/rpjJQy32/pork.jpg");
+}
+.dessert{
+    background-image: url("https://i.postimg.cc/0Nd3vfwD/brownie.jpg");
+}
+
+
+@media (max-width: 500px) {
+    h1 {
+      font-size: 50px;
+      margin-top: 20px;
+      line-height: 40px;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 20px 0 30px 0;
+    }
+    div {
+      margin: 20px 12px 0 12px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    small {
+      font-size: 16px;
+    }
+  
